@@ -1,0 +1,137 @@
+.home-background {
+  background-color: rgb(243, 213, 187);
+  background-image: url('../../images/background2.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 3vh 5vw;
+  font-family: "Poppins", sans-serif;
+  height: 100vh;
+  width:100vw;
+  opacity: 0.8;
+}
+
+.home-container {
+  background-color: rgb(250, 240, 227);
+ opacity: 0.95;
+  border-radius: 25px;
+  height: 94vh;
+  width:90vw;
+  padding: 2.5vh 2.5vw;
+  box-shadow: 5px 5px 13px 5px rgba(0, 0, 0, 0.9);
+}
+
+.heading {
+  font-family: "Viaoda Libre", cursive;
+  font-weight: bold;
+  font-size: 4rem;
+  opacity: 1;
+  margin: 2vh 1vw;
+}
+.nav {
+  
+  width: 85vw;
+  display: flex;
+  /* border: 1px solid black; */
+  /* height:7vh; */
+  /* padding-right: 2vw; */
+  margin-top: 25px;
+  align-items: flex-end;
+  flex-direction: row-reverse;
+
+
+}
+.links {
+  color: white;
+  background-color: rgb(1, 63, 1);
+  font-weight: bold;
+  padding: 0.8em;
+  margin: 0em .8em;
+  border-radius: 25px;
+  text-decoration: none;
+  font-size: 1.15rem;
+}
+
+
+.button{
+  width: max-content;
+  margin: auto;
+  color: white;
+  background-color: rgb(1, 53, 1);
+  font-weight: bold;
+  border-radius: 5px;
+  padding: 0.8em;
+  font-size: 1.15rem;
+  margin: 1em 38%;
+}
+
+/* .components{
+  display: flex;
+  justify-content: center;
+} */
+.login-form{
+  width:30vw;
+  background-color: rgb(202, 163, 130);
+  padding: 2vh 2vw;
+  font-size: 3vh;
+  font-weight: bold;
+  /* display: block; */
+  height: fit-content;
+  border-radius: 25px;
+  box-shadow: 5px 5px 13px 5px rgba(0, 0, 0, 0.2);
+ 
+}
+.components{
+  display: flex;
+  width: 85vw;
+ /* border: 1px solid black; */
+  justify-content: space-between;
+  margin:1vh;
+}
+.thought{
+  width:50vw;
+  background-image: url("../../images/exercise-home1.jpg");
+  /* background-size: cover; */
+   font-size: 3vw;
+  opacity:unset;
+  color:rgb(43, 2, 2);
+  padding:2vw;
+  /* height: */
+}
+.list-add{
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  width:100vw;
+  padding: 10vh 30vw;
+}
+.nav-links{
+  color: white;
+  text-decoration: none;
+  display: flex;
+  justify-content: space-around;
+  width: 10vw;
+}
+
+.create-exercise{
+  
+  margin: 3vh 2vw;
+  height: 80vh;
+ 
+  padding: 2vh 2vw;
+}
+.container{
+  background-image: url('../../images/formback.png');
+  background-size:contain;
+  background-repeat: no-repeat;
+  background-position:center;
+}
+.form-control{
+  margin: 1.4vh 0;
+}
+
+.create-button{
+  width:20vw;
+  height: 3rem;
+  margin:1vh 30vw;
+  font-size: 1.6vw;
+
+}
